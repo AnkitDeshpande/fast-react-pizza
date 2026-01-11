@@ -36,17 +36,17 @@ https://fast-react-pizza-six-delta.vercel.app/
 ```
 
 fast-react-pizza/
-├─ public
-└─ src
-  ├─ features
-  │ ├─ cart
-  │ ├─ menu
-  │ ├─ order
-  │ └─ user
-  ├─ services
-  ├─ store
-  ├─ ui
-  └─ utilities
+├─ public/
+└─ src/
+  ├─ features/
+  │ ├─ cart/
+  │ ├─ menu/
+  │ ├─ order/
+  │ └─ user/
+  ├─ services/
+  ├─ store/
+  ├─ ui/
+  └─ utilities/
 ├─ package.json
 ├─ vite.config.js
 └─ tailwind.config.js
