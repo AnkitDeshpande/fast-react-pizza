@@ -1,20 +1,108 @@
-<<<<<<< HEAD
-# fast-react-pizza
-=======
-# React + Vite
+# 🍕 Fast React Pizza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fast React Pizza is a modern, responsive pizza ordering web application built using **React**, **Vite**, and **Redux Toolkit**.  
+The project focuses on clean architecture, fast performance, and real-world frontend best practices.
 
-Currently, two official plugins are available:
+🚀 **Live Demo:**  
+https://fast-react-pizza-six-delta.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📋 Dynamic pizza menu
+- 🛒 Cart management using Redux Toolkit
+- 🧭 Client-side routing with React Router
+- 🎨 Responsive UI with Tailwind CSS
+- ⚡ Fast builds using Vite
+- ☁️ Deployed on Vercel
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> main
+## 🛠️ Tech Stack
+
+- **React 19**
+- **Vite**
+- **Redux Toolkit**
+- **React Router**
+- **Tailwind CSS**
+- **Bun** (package manager)
+- **Vercel** (deployment)
+
+---
+
+## 📂 Project Structure
+
+```
+
+fast-react-pizza/
+├─ src/
+│ ├─ features/
+│ ├─ ui/
+│ ├─ services/
+│ ├─ store/
+│ └─ main.jsx
+├─ public/
+├─ package.json
+├─ vite.config.js
+└─ tailwind.config.js
+```
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/AnkitDeshpande/fast-react-pizza.git
+cd fast-react-pizza
+```
+
+### 2️⃣ Install dependencies
+
+```
+bun install OR npm install
+```
+
+### 3️⃣ Run the development server
+
+```
+bun dev
+```
+
+### 4️⃣ Build for production
+
+```
+bun run build
+```
+
+---
+
+## 📚 What I Learned
+
+- Structuring a scalable React application
+- Proper use of Redux Toolkit for state management
+- Configuring Vite for production-ready builds
+- Debugging real CI/CD issues on Vercel
+- Managing dependencies vs devDependencies correctly
+
+---
+
+## 📌 Future Improvements
+
+- 🔐 Authentication
+- 💳 Payment integration
+- 📦 Order history
+- 🧪 Testing setup
+
+---
+
+## 👤 Author
+
+**Ankit Deshpande**
+Full Stack Developer
+
+- GitHub: [https://github.com/AnkitDeshpande](https://github.com/AnkitDeshpande)
+
+---
+
+⭐ If you like this project, feel free to star the repo!
